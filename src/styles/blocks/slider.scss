@@ -1,3 +1,8 @@
+.slider_index {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
 .slider {
     width: 100%;
     height: auto;
@@ -112,6 +117,7 @@ font-weight: 500;
 text-decoration: none;
 justify-content: center;
  }
+ 
  @media (min-width: 1441px) { 
     .slider_content_wrapper {
         top: 20%;
