@@ -8,7 +8,7 @@
 //      V A R I A B L E S
 // ------------------------------------
 
-$font-family: 'Fira Sans', sans-serif;
+$font-family: 'Raleway', sans-serif;
 $font-color: #000;
 $base-transition: all 230ms ease;
 
@@ -44,7 +44,8 @@ html, body {
 
 .container {
     width: 100%;
-    padding: 0 40px;
+    max-width: 1440PX;
+    padding: 0 160px;
     margin: 0 auto;
     transition: $base-transition;
     @include respond-to('medium') {
@@ -62,7 +63,7 @@ html, body {
 @import './blocks/icons.scss';
 @import './blocks/header.scss';
 @import './blocks/footer.scss';
-
+@import './blocks/slider.scss';
 .logo {
     display: block;
     max-width: 150px;

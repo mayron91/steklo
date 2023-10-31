@@ -1,12 +1,32 @@
 <header class="header">
     <div class="container">
-        <a href="/" class="logo">
-            <img src="img/logo.svg" alt="" class="logo__img">
-        </a>
-
-        <div class="header__contacts">
-            <a href="tel:{{ vars.phone | toTel }}" class="phone">{{ vars.phone }}</a> <br>
-            <a href="tel:" class="phone">{{ vars.email }}</a>
+        <div class="header_wrapper">
+            <a href="/" class="logo">
+                <img src="img/logo.svg" alt="" class="logo__img">
+            </a>
+            <div class="nav_header_wrapper">
+                <div class="nav_header">
+                    <ul class="nav">
+                        <li class="nav-item"><a class="nav-link" href="#">Каталог</a></li>
+                        <li class="nav-item"><a class="nav-link dropdown_arrow" href="#">Услуги</a>
+                            <ul class="subnav">
+                                <li class="subnav-item"><a class="subnav-link" href="#">Ссылка1</a></li>
+                                <li class="subnav-item"><a class="subnav-link" href="#">Ссылка1</a></li>
+                                <li class="subnav-item"><a class="subnav-link" href="#">Ссылка1</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a class="nav-link dropdown_arrow" href="#">О компании</a>
+                            <ul class="subnav">
+                                <li class="subnav-item"><a class="subnav-link" href="#">Ссылка1</a></li>
+                                <li class="subnav-item"><a class="subnav-link" href="#">Ссылка1</a></li>
+                                <li class="subnav-item"><a class="subnav-link" href="#">Ссылка1</a></li>
+                            </ul></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Контакты</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
+        
+
     </div>
 </header>
