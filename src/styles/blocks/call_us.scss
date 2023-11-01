@@ -1,0 +1,106 @@
+.call_us {
+    width: 100%;
+    height: auto;
+    min-height: 890PX;
+    margin-top: 110PX;
+    background: url("/img/index/callusback.jpg") center center / cover no-repeat;
+}
+.call_us_wrapper {
+    display: flex;
+    flex-direction: row;
+}
+.call_us_left {
+    width: 50%;
+}
+.call_us_left p {
+    color: #FFF;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+width: 70%;
+margin-top: 0;
+}
+.call_us_left_title h2 {
+    font-size: 78PX ;
+font-weight: 900;
+line-height: 120%;
+text-transform: uppercase;
+color: #fff;
+margin-top: 180PX;
+margin-bottom: 0;
+}
+.call_us_left_arrow {
+    width: 100%;
+    min-height: 350PX;
+    background: url("/img/index/arrow.png") center right no-repeat;
+}
+.call_us_right {
+    width: 50%;
+}
+.call_us_form {
+    display: flex;
+    flex-direction: column;
+    width: 530px;
+height: 750px;
+background: #fff;
+border-radius: 24PX;
+margin-top: 75PX;
+margin-left: 35PX;
+align-items: center;
+padding-top: 45px;
+}
+.call_us_form_input {
+    width: 410PX;
+    height: 60PX;
+    border-radius: 11px;
+border: 1px solid #C3CAD9;
+padding: 5px 20px;
+background: #FFF;
+color: #C3CAD9;
+}
+.call_us_form_input_text {
+    width: 410PX;
+    border-radius: 11px;
+border: 1px solid #C3CAD9;
+padding: 15px 20px;
+background: #FFF;
+color: #C3CAD9;
+}
+.politics {
+    width: 410PX;
+    color: #232323;
+font-size: 13PX;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+.politics label {
+    margin-left: 5px;
+}
+.politics_checkbox {
+    width: 17PX;
+    height: 17PX;
+    border-radius: 3PX;
+}
+.call_us_form_input_btn {
+    margin-top: 55PX;
+    width: 410PX;
+}
+.btn {
+    display: flex;
+padding: 15px 50px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 30px;
+background: #2BB5F8;
+border: none;
+color: #fff;
+}
+.pointer {
+    cursor: pointer;
+}

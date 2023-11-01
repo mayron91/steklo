@@ -1,0 +1,44 @@
+.why_are_we {
+    margin-top: 120PX;
+}
+.why_are_we_title_line {
+    background: url('/img/index/line2.png') no-repeat;
+    width: 105PX;
+    height: 20PX;
+    margin-top: -40PX;
+    margin-left: 47%;
+}
+.why_are_we_card_wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-top: 60PX;
+}
+.why_are_we_card {
+    width: 24%;
+    max-width: 255px;
+max-height: 245px;
+border-radius: 32px;
+background: #F8F8F8;
+padding: 15PX 0 0 30PX;
+}
+.why_are_we_card p {
+    padding: 0 10px;
+}
+.why_are_we_card_head {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.why_are_we_card_head img {
+width: 64PX;
+height: 64PX;
+}
+.why_are_we_card_head h4 {
+    padding-left: 16PX;
+    font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
