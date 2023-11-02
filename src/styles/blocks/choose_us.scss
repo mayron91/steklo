@@ -83,4 +83,106 @@
 .choose_us_content_text_reverse {
     padding: 0 100PX 0 0;
     text-align: right;
+    margin-right: 0PX;
 }
+@media (max-width: 1400px) { 
+    .choose_us_content_item {
+        
+        width: 180%;
+    }
+    .choose_us_content_item img {
+        margin-right: 40PX;
+        padding-left: 40PX;
+    }
+    .choose_us_content_text {
+        padding: 0 0 0 40PX;
+    }
+   .choose_us_content_item_reverse img {
+    margin-right: 0;
+    margin-left: 40PX;
+    padding-left: 40PX;
+    margin-right: 0PX;
+        padding-right: 0PX;
+   }
+ }
+ @media (min-width: 2000px) { 
+    .choose_us_content_item img {
+        padding: 0 40px 0 0;
+    }
+    .choose_us_content_item_reverse img {
+        margin-right: 0;
+        margin-left: 20PX;
+        padding-left: 20PX;
+        margin-right: 0PX;
+            padding-right: 0PX;
+       }
+ }
+ @media ( min-width: 320px) and (max-width: 1223px) {
+    .choose_us_title_line {
+        margin: -30PX 0 0 0;
+    }
+    .choose_us {
+        width: 100%;
+        margin-top: 70PX;
+        padding: 0 10px;
+    }
+    .choose_us_title_wrapper h2 {
+font-size: 32PX;
+font-weight: 700;
+line-height: 38PX;
+letter-spacing: 0em;
+text-align: left;
+text-transform: none;
+    }
+    .choose_us_title_line {
+        width: 185PX;
+        margin: -30PX 0 0 60PX;
+    }
+    .line_for_numbers {
+        left: 1%;
+        width: 100%;
+        z-index: 100;
+        position: relative;
+        margin-top: 75px;
+    }
+    .circle_for_number {
+        width: 50PX;
+        height: 50PX;
+        margin-left: -25PX;
+        z-index: 100;
+        position: relative;
+
+    }
+    .circle_for_number p {
+        font-size: 16PX;
+        margin-top: 15PX;
+        margin-left: 40px
+    }
+    .choose_us_content_item {
+        width: 100%;
+        left: auto;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: flex-start;
+        position: relative;
+        margin-top: 30PX;
+    }
+    .choose_us_content_item img {
+        width: 100%;
+        max-width: 500PX;
+        max-height: 350PX;
+        padding: 0 0 0 10PX;
+        margin: 0;
+        max-width: 325px;
+max-height: 149px;
+border-radius: 0px 20px 20px 0px;
+margin: -130PX 0 0 -10PX;
+overflow: hidden;
+z-index: 10;
+        position: relative;
+    }
+    .choose_us_content_text {
+        width: 100%;
+    }
+ }

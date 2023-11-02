@@ -26,9 +26,9 @@
 <script>
     $(window).scroll(function(){
               if($(this).scrollTop() > 100){
-                  $('.header_wrapper').addClass('sticky')&$('.logo_img').addClass('new_logo')&$('.dropdown_arrow').addClass('dropdown_arrow_black')&$('.subnav').addClass('subnav_black')
+                  $('.header_wrapper').addClass('sticky')&$('.logo_img').addClass('new_logo')&$('.dropdown_arrow').addClass('dropdown_arrow_black')&$('.subnav').addClass('subnav_black')&$('.mobile_header_wrapper').addClass('sticky_mob')&$('#menuToggle').addClass('menuToggleSticky')
               } else{
-                  $('.header_wrapper').removeClass('sticky')&$('.logo_img').removeClass('new_logo')&$('.subnav').removeClass('subnav_black')&$('.dropdown_arrow').removeClass('dropdown_arrow_black')
+                  $('.header_wrapper').removeClass('sticky')&$('.logo_img').removeClass('new_logo')&$('.subnav').removeClass('subnav_black')&$('.dropdown_arrow').removeClass('dropdown_arrow_black')&$('.mobile_header_wrapper').removeClass('sticky_mob')&$('#menuToggle').removeClass('menuToggleSticky')
               }
           });
   </script> 
