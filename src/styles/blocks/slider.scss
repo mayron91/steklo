@@ -142,6 +142,7 @@ justify-content: center;
    .slider_content_wrapper {
       top: 27%;
       padding-left: 10PX;
+      width: 90%;
   }
   .slider_content_wrapper p {
    width: 90%;
@@ -149,5 +150,8 @@ justify-content: center;
   .slider_content_btn {
    width: 55%;
    margin: -20PX 0 40PX 0;
+  }
+  .slider_content_btn {
+   max-width: 250PX;
   }
 }

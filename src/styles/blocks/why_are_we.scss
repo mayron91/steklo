@@ -85,6 +85,7 @@ line-height: normal;
     .why_are_we_title_line  {
         width: 60PX;
         height: 10PX;
+        margin: 0 0 0 -60PX;
     }
     .why_are_we_card_wrapper {
         justify-content: center;
@@ -109,5 +110,10 @@ line-height: normal;
         width: 48PX;
         height: 48PX;
         margin-right: 10PX;
+    }
+ }
+ @media ( min-width: 410px) and (max-width: 565px) {
+    .why_are_we_title_wrapper h2 {
+        width: 100%;
     }
  }
