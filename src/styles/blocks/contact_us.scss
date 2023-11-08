@@ -1,0 +1,42 @@
+.contact_us_wripper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.contact_us_wripper_text {
+    width: 35%;
+}
+.contact_us_map_wrapper {
+    width: 65%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 80px 0 40px 0;
+    margin-top: 100PX;
+    max-width: 635PX;
+    max-height: 454PX;
+    border-radius: 32PX;
+}
+.contact_us_map {
+    border-radius: 32PX;
+}
+@media ( min-width: 320px) and (max-width: 1024px) {
+    .contact_us_wripper {
+        flex-direction: column;
+        margin: 20px 0 0px 0;
+        align-items: center;
+    }
+    .contact_us_wripper_text {
+        width: 100%;
+    }
+    .contact_us_map_wrapper {
+        width: 100%;
+        margin: 20px 0 0px 0;
+        max-width: 325PX;
+        max-height: 240PX;
+    }
+}
