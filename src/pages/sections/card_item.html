@@ -1,0 +1,106 @@
+<section class="card_item">
+    <div class="container">
+        <div class="card_item_wrapper">
+            <div class="wrapper">
+                    
+                <div class="image-gallery">
+                  <aside class="thumbnails">
+                    <a href="#" class="selected thumbnail" data-big="img/card_item/item_img.jpg">
+                      <div class="thumbnail-image" style="background-image: url('img/card_item/item_img.jpg')"></div>
+                    </a>
+                    <a href="#" class="thumbnail" data-big="img/card_item/item_img.jpg">
+                      <div class="thumbnail-image" style="background-image: url('img/card_item/item_img.jpg')"></div>
+                    </a>
+                    <a href="#" class="thumbnail" data-big="img/card_item/item_img.jpg">
+                        <div class="thumbnail-image" style="background-image: url('img/card_item/item_img.jpg')"></div>
+                      </a>
+                      <a href="#" class="thumbnail" data-big="img/card_item/item_img.jpg">
+                        <div class="thumbnail-image" style="background-image: url('img/card_item/item_img.jpg')"></div>
+                      </a>
+                  </aside>
+                
+                  <main class="primary" style="background-image: url('img/card_item/item_img.jpg');"></main>
+                </div>
+                
+                </div>
+                
+                <div class="card_item_wripper_data">
+                    <h2>Банка стеклянная 
+                        с круглым дном
+                        22 см</h2>
+                        <div class="swiper-container card_item_swiper">
+                          <!-- Additional required wrapper -->
+                          <div class="swiper-wrapper">
+                              <div class="swiper-slide card_item_mob"><img src="img/card_item/item_img.jpg" alt=""></div>
+                              <div class="swiper-slide card_item_mob"><img src="img/card_item/item_img.jpg" alt=""></div>
+                              <div class="swiper-slide card_item_mob"><img src="img/card_item/item_img.jpg" alt=""></div>
+                              <div class="swiper-slide card_item_mob"><img src="img/card_item/item_img.jpg" alt=""></div>
+                          </div>
+                  
+                          <!-- If we need navigation buttons -->
+                          <div class="swiper-button-prev"></div>
+                          <div class="swiper-button-next"></div>
+                      </div>
+                        <div class="card_item_wripper_data_wripper">
+                            <div class="data_wripper_left">
+                                <p>Номинальная вместимость</p>
+                                <p>Полная вместимость</p>
+                                <p>Высота</p>
+                                <p>Диаметр</p>
+                                <p>Тип венчика</p>
+                                <p>Размеры колпака</p>
+                            </div>
+                            <div class="data_wripper_right">
+                                <p>100 мл</p>
+                                <p>110 мл</p>
+                                <p>141 мм</p>
+                                <p>63х30 мм</p>
+                                <p>Винтовой колпак</p>
+                                <p>28х18, 28х38</p>
+                            </div>
+                        </div>
+                        <span>Минимальный заказ от 1 паллета (5120 шт.)</span>
+                        <a class="card_item_wripper_data_btn" href="#">Получить чертеж</a>
+                </div>
+        </div>
+        
+      </div>
+</section>
+<script>
+    $('.thumbnail').on('click', function() {
+  var clicked = $(this);
+  var newSelection = clicked.data('big');
+  var $img = $('.primary').css("background-image","url(" + newSelection + ")");
+  clicked.parent().find('.thumbnail').removeClass('selected');
+  clicked.addClass('selected');
+  $('.primary').empty().append($img.hide().fadeIn('slow'));
+});
+</script>
+<script>
+  $(document).ready(function() {
+// Swiper: Slider
+  new Swiper('.swiper-container', {
+      loop: true,
+      nextButton: '.swiper-button-next',
+      prevButton: '.swiper-button-prev',
+      slidesPerView: 3,
+      paginationClickable: true,
+      spaceBetween: 20,
+      breakpoints: {
+          1920: {
+              slidesPerView: 3,
+              spaceBetween: 30
+          },
+          1028: {
+              slidesPerView: 2,
+              spaceBetween: 30
+          },
+          480: {
+              slidesPerView: 1,
+              spaceBetween: 10
+          }
+      }
+  });
+});
+
+</script>
