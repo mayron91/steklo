@@ -1,0 +1,138 @@
+.services_content_wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70PX;
+    width: 100%;
+    margin-bottom: 110PX;
+}
+.services_content_wrapper h2 {
+    font-size: 48PX;
+    font-weight: 900;
+    text-transform: uppercase;
+    width: 770PX;
+    background: url('/img/services/contentline.png') center right no-repeat;
+}
+.services_content_wrapper img {
+    width: 100%;
+    max-width: 1110PX;
+    max-height: 380PX;
+    border-radius: 20PX;
+}
+.services_content_text_wripper {
+    display: flex;
+    flex-direction: row;
+}
+.services_content_text_left {
+    width: 50%;
+    padding: 50PX 80PX 0 30PX;
+}
+.services_content_text_right {
+    width: 50%;
+    padding: 50PX 80PX 0 30PX;
+}
+.full_cycle {
+    width: 100%;
+    background: #F8F8F8;
+    padding-bottom: 70PX;
+}
+.full_cycle_wripper h2 {
+    font-size: 48PX;
+    width: 40%;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding: 40PX 0;
+}
+.full_cycle_wripper p {
+    width: 80%;
+}
+.services_we_produce_title {
+    margin-top: 100PX;
+}
+.we_produce {
+    margin-bottom: 150PX;
+}
+.services_we_produce_card_wripper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2;
+}
+.services_we_produce_card {
+    margin-top: 30PX;
+     padding-bottom: 10PX;
+}
+.services_we_produce_card p {
+    font-size: 18PX !important;
+}
+@media ( min-width: 320px) and (max-width: 1024px) {
+    .services_content_wrapper {
+        margin-top: 10PX;
+    }
+    .services_content_wrapper h2{
+        width: 275PX;
+        text-transform: none;
+        font-weight: 700;
+        background: url('/img/services/mobline.png')  no-repeat;
+        background-position: left 65PX ;
+    }
+    .services_content_text_wripper {
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 40PX;
+        margin-bottom: 0PX;
+    }
+    .services_content_text_left {
+        width: 100%;
+    }
+    .services_content_text_right {
+        width: 100%;
+    }
+    .services_content_wrapper img {
+        width: 100%;
+        min-width: 320PX;
+        min-height: 240PX;
+        object-fit: cover;
+        margin-top: 10PX;
+    }
+    .services_content_text_left {
+        padding: 0;
+    }
+    .services_content_text_right {
+        padding: 0;
+    }
+    .full_cycle_wripper h2 {
+        font-weight: 700;
+        text-transform: none;
+        width: 70%;
+        padding: 10PX 0;
+    }
+    .full_cycle_wripper p {
+        width: 100%;
+    }
+    .full_cycle {
+        padding-bottom: 20PX;
+    }
+    .services_we_produce_card {
+        width: 48%;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 10PX;
+    }
+    .services_we_produce_card p {
+        width: 70%;
+        margin-left: 0;
+        text-align: center;
+
+    }
+    .we_produce {
+        margin-bottom: 90PX;
+    }
+}
+@media ( min-width: 1020px) and (max-width: 1225px) {
+    .services_content_wrapper h2 {
+        width: 510PX;
+        background: url('/img/services/mobline.png')  no-repeat;
+        background-position: center right ;
+    }
+}
