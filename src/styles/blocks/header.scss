@@ -6,7 +6,10 @@ justify-content: space-between;
 min-height: 80PX;
 align-items: center;
 position: relative;
-z-index: 50;
+z-index: 800;
+width: 100%;
+    max-width: 1440PX;
+    margin: 0 auto;
 }
 .logo_img {
   background: url('/img/logo.svg') no-repeat;
@@ -88,13 +91,27 @@ z-index: 50;
   .subnav-link:hover {
     color: #2BB5F8;
   }
-  .sticky {
-    position: fixed;
-    background-color: #fff;
-    width: 100%;
-    left: 0;
+  .white_nav {
+    position: relative;
+    max-width: 1440PX;
+    margin: 0 auto;
+    z-index: 999;
     padding: 0 160px;
+ }
+ .sticky {
+  position: fixed;
+  background-color: #fff;
+    width: 100%;
     box-shadow: 2px 1px 2px #f0f0f0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+ }
+ .for_header_nav {
+  width: 100%;
+  background: #fff;
+  height: 90PX;
+  box-shadow: 2px 1px 2px #f0f0f0;
  }
  .sticky a {
   color: #000;
@@ -106,7 +123,12 @@ z-index: 50;
  .mobile_header_wrapper {
   display: none;
  }
- @media ( min-width: 320px) and (max-width: 1223px) {
+ @media ( min-width: 950px) and (max-width: 1024px) {
+  .sticky_mob {
+    padding: 0 160PX;
+  }
+ }
+ @media ( min-width: 320px) and (max-width: 1024px) {
   .header_wrapper {
     display: none;
   }
@@ -259,17 +281,22 @@ line-height: normal;
   }
   .sticky_mob {
     position: fixed;
+    
+    background-color: #fff;
+    width: 100%;
+    left: 0;
+    right: 0;
+    box-shadow: 2px 1px 2px #f0f0f0;
+    z-index: 999;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: #fff;
-    width: 100%;
-    left: 0;
-    padding: 0 40PX 0 20PX;
-    box-shadow: 2px 1px 2px #f0f0f0;
-    z-index: 999;
+   margin: 0 auto;
+   padding: 0 20PX;
   }
+ 
   .logo_img {
     z-index: 800;
     position: relative;

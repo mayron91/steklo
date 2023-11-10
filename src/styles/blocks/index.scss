@@ -79,7 +79,7 @@
  /*content*/
  .slider_content_wrapper {
     position: absolute;
-    top: 24%;
+    top: 14%;
     width: 450PX;
  }
  .slider_content_wrapper h1 {
@@ -338,6 +338,7 @@ margin: -130PX 0 0 -10PX;
 overflow: hidden;
 z-index: 10;
         position: relative;
+        object-fit: cover;
     }
     .choose_us_content_text {
         width: 100%;
@@ -375,7 +376,8 @@ z-index: 10;
     display: flex;
     flex-direction: column;
 }
-@media ( min-width: 320px) and (max-width: 1223px) {
+
+@media ( min-width: 320px) and (max-width: 1024px) {
     .about_form {
         margin-top: 65PX;
     }
@@ -389,6 +391,29 @@ z-index: 10;
     .choose_us_content_wrapper p {
         width: 100%;
     }
+    .why_are_we_title_wrapper h2 {
+       
+        background: url('/img/index/line2-mob.png') right bottom no-repeat;
+        width: 370PX;
+        height: 40PX;
+    }
+}
+@media ( min-width: 320px) and (max-width: 440px) {
+    .why_are_we_title_wrapper h2 {
+       
+        background: url('/img/index/line2-mob.png') no-repeat;
+        width: 300PX !important;
+        height: 80PX !important;
+        background-position: 75% 100% !important;
+    }
+}
+@media ( min-width: 440px) and (max-width: 1024px) {
+    .why_are_we_title_wrapper h2 {
+       
+        background: url('/img/index/line2-mob.png') right bottom no-repeat;
+        width: 370PX;
+        height: 40PX;
+    }
 }
 .why_are_we {
     margin-top: 120PX;
@@ -396,23 +421,19 @@ z-index: 10;
 }
 
 .why_are_we_title_wrapper h2 {
-    display: flex;
-    flex-direction: row;
     font-size: 48PX;
     font-weight: 900;
     text-transform: uppercase;
     align-items: flex-end;
+    background: url('/img/index/line2.png') right bottom no-repeat;
+    width: 630PX;
+    height: 70PX;
 }
-.why_are_we_title_line {
-    background: url('/img/index/line2.png') center bottom no-repeat;
-    width: 105PX;
-    height: 40PX;
-    margin: 0px 0 0 -105PX;
-}
+
 .why_are_we_card_wrapper {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 60PX;
 }
@@ -462,13 +483,17 @@ line-height: normal;
         text-align: center;
     }
  }
- @media ( min-width: 320px) and (max-width: 1223px) {
-    .why_are_we_card_wrapper {
-        flex-direction: column;
-    }
+ @media ( min-width: 1024px) and (max-width: 1230px) {
     .why_are_we_title_wrapper h2 {
+        width: 370PX;
+        height: 40PX;
+        background: url('/img/index/line2-mob.png') right bottom no-repeat;
+    }
+ }
+ @media ( min-width: 320px) and (max-width: 1223px) {
+       .why_are_we_title_wrapper h2 {
         text-transform: none;
-        width: 70%;
+     
         
     }
     .why_are_we {
@@ -486,9 +511,11 @@ line-height: normal;
     }
     .why_are_we_card {
         width: 100%;
+        min-height: 210PX;
         margin-top: 10PX;
         min-width: 325PX;
         padding: 0;
+        margin: 10PX;
     }
     .why_are_we_card p {
         padding: 0 50PX;
@@ -504,8 +531,5 @@ line-height: normal;
         margin-right: 10PX;
     }
  }
- @media ( min-width: 410px) and (max-width: 565px) {
-    .why_are_we_title_wrapper h2 {
-        width: 100%;
-    }
- }
+ 
+ 

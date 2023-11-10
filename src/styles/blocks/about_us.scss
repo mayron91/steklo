@@ -24,7 +24,7 @@
 }
 
 .about_us_content_img {
-    width: 40%;
+    width: 100%;
     max-width: 445PX;
     max-height: 525PX;
     border-radius: 20PX;
@@ -133,7 +133,8 @@ text-transform: uppercase;
     .slider_on_page_title h2 {
         text-transform: uppercase;
         font-weight: 900;
-        top: 100PX;
+        top: -40PX;
+        position: absolute;
     }
   
     .about_us_content_container {
