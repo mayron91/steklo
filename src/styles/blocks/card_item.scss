@@ -261,3 +261,8 @@ height: 48PX;
   .card_item_swiper {
     display: none;
 }
+@media ( min-width: 1500px) {
+  .popular_wripper h2 {
+    height: 90PX;
+  }
+}
