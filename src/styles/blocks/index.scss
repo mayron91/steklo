@@ -114,7 +114,11 @@ font-weight: 500;
 text-decoration: none;
 justify-content: center;
  }
- 
+ @media (min-width: 1920px) { 
+    .why_are_we_card_head h4 {
+        font-size: 20PX;
+    }
+}
  @media (min-width: 1441px) { 
     .slider_content_wrapper {
         top: 20%;
@@ -519,6 +523,7 @@ line-height: normal;
     }
     .why_are_we_card p {
         padding: 0 50PX;
+        text-align: left;
     }
     .why_are_we_card_head {
         flex-direction: row;
