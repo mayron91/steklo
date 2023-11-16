@@ -138,6 +138,9 @@ color: #fff;
     .call_us_wrapper {
         flex-direction: column;
     }
+    .call_us_form_input_text {
+        margin: 20PX 0 0 0;
+    }
     .call_us_left_arrow {
         display: none;
     }
@@ -158,5 +161,12 @@ color: #fff;
     }
     .call_us_form {
         margin-top: 20PX;
+        min-height: 0;
+    }
+    .politics {
+        margin-top: 30PX;
+    }
+    .call_us_form_input_btn {
+        margin-top: 30PX;
     }
  }
